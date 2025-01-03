@@ -1,0 +1,139 @@
+.daterium-admin-centrar-texto {
+  text-align: center;
+}
+
+.daterium-admin-modalmask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(35, 33, 32, 0.3);
+  z-index: 100;
+  display: none;
+}
+
+.daterium-admin-open_modal {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+}
+
+.daterium-admin-open_modal .daterium-admin-movedown {
+  display: block;
+}
+
+.daterium-admin-modalbox {
+  width: 350px;
+  max-width: 80%;
+  position: relative;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 0;
+  top: 0;
+  display: none;
+}
+
+.daterium-admin-modalbox .check-modal {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.daterium-admin-modalbox-marcas {
+  top: -10em;
+}
+
+.aviso-cookies-form {
+  color: rgb(66 66 66);
+  font-size: 75%;
+}
+
+.aviso-cookies-form a {
+  color: rgb(35 31 32);
+  text-decoration: underline;
+}
+
+.daterium-admin-modalhead {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  margin: 0;
+}
+
+.cerrar {
+  background-size: 100%;
+  color: #ffffff;
+  line-height: 25px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  border-radius: 0;
+  font-size: 16px;
+  display: block;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.daterium-admin-img-variable {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2.1rem;
+}
+
+.daterium-admin-text-variable {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.daterium-admin-div-env-var {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.daterium-admin-input-env-var {
+  width: 85%;
+}
+
+.daterium-admin-sin-mar-pad {
+  margin: 0;
+  padding: 0;
+}
+
+.daterium-admin-distribuidores-img-logo {
+  height: 60px;
+  width: auto;
+}
+
+.daterium-admin-ocultar {
+  display: none;
+}
+
+.daterium-admin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.daterium-admin-label {
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+
+

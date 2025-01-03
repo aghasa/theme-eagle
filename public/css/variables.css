@@ -1,0 +1,116 @@
+.modalmask {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(35, 33, 32, 0.3);
+	z-index: 100;
+	display: none;
+}
+
+.open_modal {
+	opacity: 1;
+	pointer-events: auto;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	display: -webkit-box;
+}
+
+.open_modal .movedown {
+	display: block;
+}
+
+.modalbox {
+	width: 350px;
+	max-width: 80%;
+	position: relative;
+	padding: 1rem;
+	background: #fff;
+	border-radius: 0;
+	top: 0;
+	display: none;
+}
+
+.modalbox .check-modal {
+	padding: 0;
+	margin-bottom: 1rem;
+}
+
+.modalbox-marcas {
+	top: -10em;
+}
+
+.aviso-cookies-form {
+	color: rgb(66 66 66);
+	font-size: 75%;
+}
+
+.aviso-cookies-form a {
+	color: rgb(35 31 32);
+	text-decoration: underline;
+}
+
+.modalhead {
+	width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	margin: 0;
+}
+
+.cerrar {	
+	background-size: 100%;
+	color: #ffffff;
+	line-height: 25px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	border-radius: 0;
+	font-size: 16px;
+	display: block;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+
+.img-variable{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2.1rem;
+}
+
+.text-variable{
+	margin: 0;
+    padding: 0;
+    font-size: 20px;
+	text-align: center;
+}
+
+.div-env-var{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.input-env-var {
+	width: 85%;
+}
+
+.sin-mar-pad{
+	margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    min-height: 100vh;
+    width: 100%;
+    color: rgb(35 31 32);
+    max-width: 100%;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.categoria{
+    width: 18rem;
+}
+
+.daterium-category-title{
+    color: red;
+}
+
+.cabecera-producto {
+    display: flex;
+    margin: 1.25rem 0;
+  }
+
+  .marca-producto {
+    padding-right: 1rem;
+    line-height: 2rem;
+  }
+
+  .logo_marca {
+    border-style: none;
+    height: auto;
+    width: auto;
+  }
+
+  .tabla-articulos{
+    width: 100%;
+    border-bottom: 2.5px solid #4B4A4A;
+  }
+
+  .cabecera-articulos {
+    background: #e5e5e5;
+    position: sticky;
+    top:0rem;
+  }
+
+  .elementos-cabecera-productos {
+    font-size: 1rem;
+    padding: 0.4rem;
+    display: table-cell;
+    align-items: center;
+    flex-grow: 2;
+    justify-content: space-between;
+  }
+
+  .cabecera-stock {
+    padding: 0;
+  }
+
+  .elementos-lista {
+    line-height: 1.0;
+    padding: 2.5vh 0;
+    text-align: center;
+    font-size: 1.0rem;
+    scroll-padding-top: 1rem;
+  }
+  
+  .elementos-cabecera-productos:empty,
+  .elementos-lista:empty {
+    display: none;
+  }
+
+  .element-align{
+    vertical-align: middle;
+  }
+
+  .resaltado-producto {
+    font-weight: bold;
+    color: rgb(11, 11, 11);
+    font-size: 1.15rem;
+  }
+
+  .ref-resaltado {
+    padding: 2.5rem 1vh 3rem 0;
+  }
+
+  .ref-check {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+
+  .to-wishlist {
+    height: 15px;
+    width: 15px;
+    background-color: #d6d6d6;
+    vertical-align: middle;
+  }
+
+  .wishlisted .to-wishlist {
+    background: url('./public/img/ok.svg') no-repeat center center, var(--primary-color);
+    background-size: 80%;
+  }
+
+
+  .referencia {
+    line-height: 15px;
+    padding-left: 0.2rem;
+  }
+
+.leyenda-stock {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    margin: 1rem 0 2.5rem;
+  }
+  
+.elemento-stock {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  display: flex;
+  align-items: center;
+}
+
+.imagen-stock {
+  width: 1.5rem;
+}
+
+.descripcion-stock {
+  font-size: 1.1rem;
+  margin: 0;
+  margin: 0 2vw 0 1vw;
+  text-align: left;
+}
+
+.titulo-producto {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-size: 2.2rem;
+}
+
+.imagen-centrada {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+
+.selector-categoria {
+  margin: 2rem 0 0;
+  font-size: 1.2rem;
+  color: black;
+  padding: 1rem;
+  width: 100%;
+}
+
+.info-div-cabecera{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  background-color: gray;
+  color: white;
+  margin-top: 2rem;
+}
+
+.info-div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+
+.info-div-cabecera p{
+  margin: 0;
+}
+
+.info-div-cabecera h4 {
+  margin: 0 15px 0 0;
+}
+
+.info-div h6{
+  margin: 0 15px 0 0;
+}
+
+.info-div p{
+  margin: 0;
+
+}
+.ocultar {
+  display: none;
+}
+
+.info-h5{
+  background-color: lightgray;
+}
+
+.relacionados-general{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 1rem;
+  align-items: baseline;
+}
+
+.relacionado{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  text-align: center;
+  max-width: 25%;
+}
+
+.imagen-relacionados{
+  display: block;
+  width: 100%;
+  max-height: 200px;
+}
+
+.encabezado-relaciondo{
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.texto-producto-relacionado{
+  margin-top: 0.7rem;
+}
+
+.girar-imagen{
+  transform: rotate(180deg);
+}
+
+.daterium-list-title{
+  text-align: center;
+}
+
+
+.distribuidores{  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.info-div-distribuidores{
+  background-color: red;
+    text-align: center;
+    color: white;
+    margin: 2rem 0;
+}
+
+
+.admin-distribuidores{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.boton-eliminar{
+  display: flex;
+  justify-content: center;
+}
+
+
+.add-nuevo-distribuidor{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.sin-vertical{
+  vertical-align: inherit;
+}
+
+.img-logo{
+  height: 60px;
+  width:50%;
+}
+
+.imagen-producto{
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;  
+  
+}
+
+
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 90%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.select-ref{
+  max-width: 250px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #e92729ff;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.div-cabecera{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.text-cabecera{
+  width: 60%;
+}
+
+.img-des{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 10px;
+}
+
+@media (max-width: 782px){
+  .img-logo{
+    height: 60px;
+    width:75%;
+  }
+
+  .div-cabecera{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagen-producto {
+    width: 80%;
+  }
+
+  .text-cabecera {
+    width: 95%;
+  }
+
+
+
+
+}
+
+
+

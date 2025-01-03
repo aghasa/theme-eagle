@@ -1,0 +1,23 @@
+# Traducible file for Daterium Brand Plugin
+# Domain: daterium-brand-traducc
+# Copyright (C) 2024 Your Company Name
+# This file is distributed under the GPL v2 or later.
+
+# Spanish translation
+
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "Producto no encontrado"
+msgstr ""
+
+msgid "Uds."
+msgstr ""
+
+msgid "embalaje"
+msgstr ""
+
+msgid "Información de la referencia:"
+msgstr "Reference information:"
